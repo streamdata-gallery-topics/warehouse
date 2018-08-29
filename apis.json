@@ -1,0 +1,71 @@
+{
+	"name": "Streadata.io API Gallery - Warehouse",
+	"description": "This is a repository of warehouse APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/warehouse.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://warehouse.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Avi-On",
+			"x-api-slug": "avion",
+			"description": "Avi-on&rsquo;s vision for Simple Bluetooth Lighting Controls combines the perfect mix of simple, reliable devices, state of the art enterprise-grade remote management and easy configuration with any smart phone or tablet. The vibrant Avi-on ecosystem is growing with new products and partners every day, providing easy to use solutions for warehouse, manufacturing, office, education, architectural, residential, landscape, outdoor, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/avi-on-logo.png",
+			"humanURL": "http://avi-on.com/",
+			"baseURL": "https:///",
+			"tags": "Warehouse",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/avion/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Warehouse",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Warehouse",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Warehouse",
+	"include": [
+		{
+			"name": "Avi-On",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/avion/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/apis.yaml"
+		}
+	]
+}

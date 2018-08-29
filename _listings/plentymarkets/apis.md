@@ -11,11 +11,43 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Warehouse
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
+- name: plentymarkets REST-API - Create an address warehouse relation
+  x-api-slug: restaccountsaddresseswarehouse-relations-post
+  description: Create an address warehouse relation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restaccountsaddresseswarehouse-relations-post-openapi.md
+- name: plentymarkets REST-API - Delete an address warehouse relation
+  x-api-slug: restaccountsaddresseswarehouse-relationsrelationid-delete
+  description: Deletes an address warehouse relation. The ID of the relation must
+    be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restaccountsaddresseswarehouse-relationsrelationid-delete-openapi.md
+- name: plentymarkets REST-API - Update an address warehouse relation
+  x-api-slug: restaccountsaddresseswarehouse-relationsrelationid-put
+  description: Updates an address warehouse relation. The ID of the relation must
+    be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restaccountsaddresseswarehouse-relationsrelationid-put-openapi.md
 - name: plentymarkets REST-API - List stock of a variation per warehouse
   x-api-slug: restitemsidvariationsvariationidstock-get
   description: Lists stock of a variation per warehouse. The ID of the item and the
@@ -94,6 +126,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementstocktypestype-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementstocktypestype-get-openapi.md
+- name: plentymarkets REST-API - Create a warehouse
+  x-api-slug: reststockmanagementwarehouses-post
+  description: Create a warehouse.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementwarehouses-post-openapi.md
+- name: plentymarkets REST-API - Create an address for existing warehouse
+  x-api-slug: reststockmanagementwarehousesaddresses-post
+  description: Create an address for existing warehouse.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementwarehousesaddresses-post-openapi.md
+- name: plentymarkets REST-API - Get a warehouse
+  x-api-slug: reststockmanagementwarehouseswarehouseid-get
+  description: Gets a warehouse. The id of the warehouse must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementwarehouseswarehouseid-get-openapi.md
 - name: plentymarkets REST-API - List warehouse addresses
   x-api-slug: reststockmanagementwarehouseswarehouseidaddressesrelationtypeid-get
   description: List warehouse addresses. The ID of the warehouse must be specified.
@@ -106,6 +168,38 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementwarehouseswarehouseidaddressesrelationtypeid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementwarehouseswarehouseidaddressesrelationtypeid-get-openapi.md
+- name: plentymarkets REST-API - List stock by warehouse
+  x-api-slug: reststockmanagementwarehouseswarehouseidstock-get
+  description: Lists stock for a warehouse. The ID of the warehouse must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementwarehouseswarehouseidstock-get-openapi.md
+- name: plentymarkets REST-API - List stock of a warehouse per storage location
+  x-api-slug: reststockmanagementwarehouseswarehouseidstockstoragelocations-get
+  description: Lists stock of a warehouse for each variation and storage location.
+    The stock will only be listed if the stock is positive. Negative stock will not
+    be listed. The ID of the warehouse must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementwarehouseswarehouseidstockstoragelocations-get-openapi.md
+- name: plentymarkets REST-API - Create a warehouse location layout
+  x-api-slug: restwarehouseslayouts-post
+  description: Creates a warehouse location layout
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslayouts-post-openapi.md
 - name: plentymarkets REST-API - Delete multiple warehouse locations
   x-api-slug: restwarehouseslocations-delete
   description: Deletes multiple warehouse locations
@@ -118,6 +212,179 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocations-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocations-delete-openapi.md
+- name: plentymarkets REST-API - Create a warehouse location
+  x-api-slug: restwarehouseslocations-post
+  description: Creates a warehouse location.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocations-post-openapi.md
+- name: plentymarkets REST-API - Get warehouse location details
+  x-api-slug: restwarehouseslocationsdetails-get
+  description: Gets warehouse location details
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationsdetails-get-openapi.md
+- name: plentymarkets REST-API - Create a warehouse location dimension
+  x-api-slug: restwarehouseslocationsdimensions-post
+  description: Creates a warehouse location dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationsdimensions-post-openapi.md
+- name: plentymarkets REST-API - Delete a warehouse location dimension
+  x-api-slug: restwarehouseslocationsdimensionswarehouselocationdimensionid-delete
+  description: Deletes a warehouse location dimension
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationsdimensionswarehouselocationdimensionid-delete-openapi.md
+- name: plentymarkets REST-API - Get a warehouse location dimension
+  x-api-slug: restwarehouseslocationsdimensionswarehouselocationdimensionid-get
+  description: Gets a warehouse location dimension by ID. The warehouse location ID
+    is required.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationsdimensionswarehouselocationdimensionid-get-openapi.md
+- name: plentymarkets REST-API - Update a warehouse location dimension
+  x-api-slug: restwarehouseslocationsdimensionswarehouselocationdimensionid-put
+  description: Updates a warehouse location dimension
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationsdimensionswarehouselocationdimensionid-put-openapi.md
+- name: plentymarkets REST-API - Create a warehouse location level
+  x-api-slug: restwarehouseslocationslevels-post
+  description: Creates a warehouse location level.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationslevels-post-openapi.md
+- name: plentymarkets REST-API - Delete a warehouse location level
+  x-api-slug: restwarehouseslocationslevelswarehouselocationlevelid-delete
+  description: Deletes a warehouse location level
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationslevelswarehouselocationlevelid-delete-openapi.md
+- name: plentymarkets REST-API - Get a warehouse location level
+  x-api-slug: restwarehouseslocationslevelswarehouselocationlevelid-get
+  description: Gets a warehouse location level by ID. The warehouse location ID is
+    required.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationslevelswarehouselocationlevelid-get-openapi.md
+- name: plentymarkets REST-API - Update a warehouse location level
+  x-api-slug: restwarehouseslocationslevelswarehouselocationlevelid-put
+  description: Updates a warehouse location level
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationslevelswarehouselocationlevelid-put-openapi.md
+- name: plentymarkets REST-API - Create multiple warehouse location dimensions
+  x-api-slug: restwarehouseslocationsmultiple-dimensions-post
+  description: Creates multiple warehouse location dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationsmultiple-dimensions-post-openapi.md
+- name: plentymarkets REST-API - Generate warehouse location preview and saves it
+  x-api-slug: restwarehouseslocationspreviews-post
+  description: Generates warehouse location preview and saves it
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationspreviews-post-openapi.md
+- name: plentymarkets REST-API - Generate the warehouse location label
+  x-api-slug: restwarehouseslocationswarehouseidlabel-get
+  description: Generates the warehouse location label
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationswarehouseidlabel-get-openapi.md
+- name: plentymarkets REST-API - Delete a warehouse location
+  x-api-slug: restwarehouseslocationswarehouselocationid-delete
+  description: Deletes a warehouse location
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationswarehouselocationid-delete-openapi.md
+- name: plentymarkets REST-API - Get a warehouse location
+  x-api-slug: restwarehouseslocationswarehouselocationid-get
+  description: Gets a warehouse location by ID. The warehouse location ID is required.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationswarehouselocationid-get-openapi.md
+- name: plentymarkets REST-API - Update a warehouse location
+  x-api-slug: restwarehouseslocationswarehouselocationid-put
+  description: Updates a warehouse location
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseslocationswarehouselocationid-put-openapi.md
+- name: plentymarkets REST-API - Get a warehouse location structure
+  x-api-slug: restwarehousesstructurewarehouseid-get
+  description: Gets a warehouse location structure by warehouse ID. The warehouse
+    ID is required.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehousesstructurewarehouseid-get-openapi.md
 - name: plentymarkets REST-API - List warehouse locations
   x-api-slug: restwarehouseswarehouseidlocations-get
   description: Lists all warehouse locations.
@@ -130,6 +397,89 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseswarehouseidlocations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseswarehouseidlocations-get-openapi.md
+- name: plentymarkets REST-API - List warehouse location dimensions
+  x-api-slug: restwarehouseswarehouseidlocationsdimensions-get
+  description: Lists all warehouse location dimensions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseswarehouseidlocationsdimensions-get-openapi.md
+- name: plentymarkets REST-API - List warehouse location levels
+  x-api-slug: restwarehouseswarehouseidlocationslevels-get
+  description: Lists all warehouse location levels.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restwarehouseswarehouseidlocationslevels-get-openapi.md
+- name: plentymarkets REST-API - List the warehouses linked to a variation
+  x-api-slug: restitemsidvariationsvariationidvariation-warehouses-get
+  description: Lists the warehouses linked to a variation. The ID of the item and
+    the ID of the variation must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-warehouses-get-openapi.md
+- name: plentymarkets REST-API - List warehouses
+  x-api-slug: reststockmanagementwarehouses-get
+  description: Lists warehouses without applying any filters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementwarehouses-get-openapi.md
+- name: plentymarkets REST-API - List the warehouses linked to a variation
+  x-api-slug: restitemsidvariationsvariationidvariation-warehouses-get
+  description: Lists the warehouses linked to a variation. The ID of the item and
+    the ID of the variation must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-warehouses-get-openapi.md
+- name: plentymarkets REST-API - List warehouses
+  x-api-slug: reststockmanagementwarehouses-get
+  description: Lists warehouses without applying any filters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementwarehouses-get-openapi.md
+- name: plentymarkets REST-API - List warehouses
+  x-api-slug: reststockmanagementwarehouses-get
+  description: Lists warehouses without applying any filters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/reststockmanagementwarehouses-get-openapi.md
+- name: plentymarkets REST-API - List the warehouses linked to a variation
+  x-api-slug: restitemsidvariationsvariationidvariation-warehouses-get
+  description: Lists the warehouses linked to a variation. The ID of the item and
+    the ID of the variation must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/warehouse/master/_listings/plentymarkets/restitemsidvariationsvariationidvariation-warehouses-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1
